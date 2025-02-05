@@ -1,0 +1,21 @@
+# Server
+
+## Step 1 create package json file
+```bash
+npm init -y
+```
+
+## step  2 install package
+```bash
+npm install express nodemon cors morgan bcryptjs jsonwebtoken zod prisma
+```
+
+## step3 Git
+```bash
+git init
+git add .
+git commit -m "message"
+```
+
+next Step
+copy code from repo
