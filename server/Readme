@@ -19,3 +19,14 @@ git commit -m "message"
 
 next Step
 copy code from repo
+only first time
+```bash remote add origin https://github.com/chatcharin5360/cc19-front-to-back-api.git
+get branch -m main
+get push -m origin main
+
+```
+
+
+
+
+

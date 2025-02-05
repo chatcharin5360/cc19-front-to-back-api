@@ -4,6 +4,7 @@ const morgan = require("morgan")
 const handleError = require("./middleware/error")
 
 const authRoute = require("./Route/auth-route")
+const userRoute = require("./Route/user-route")
 const app = express()
 
 
@@ -15,10 +16,11 @@ app.use(express.json()); // for read json
 
 //routing
 app.use("/api", authRoute)
+app.use("/api", userRoute)
 
 //Handle errors
 app.use(handleError)
 
 
-const PORT = 8000
+const PORT = 8001
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`))
